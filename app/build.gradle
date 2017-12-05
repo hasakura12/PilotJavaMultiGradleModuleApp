@@ -1,0 +1,9 @@
+apply plugin: 'application' // this module is executable application
+
+mainClassName = 'HelloWorld'
+
+dependencies {
+    compile "joda-time:joda-time:2.2"
+    compile 'log4j:log4j:1.2.17'
+    compile project(':core') // this module depends on core module
+}

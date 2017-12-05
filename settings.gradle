@@ -1,2 +1,3 @@
 rootProject.name = 'PilotJavaMultiGradleModuleApp'
-
+include 'core'
+include 'app'
